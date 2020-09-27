@@ -8,9 +8,9 @@ consumer_secret = "Enter the consumer secret"
 access_key = "Enter the access key"  
 access_secret = "Enter teh access secret"
 
-It is important to use non_bmp_map when printing the tweet.text since some emoji can not be shown and cause error.
+It is important to use non_bmp_map when printing the tweet.text since some emoji can not be shown and cause error.  
+The code below would solve this problem:
 
-The code below would solve this problem:  
 import sys  
 non_bmp_map = dict.fromkeys(range(0x10000,sys.maxunicode+1),0xfffd)  
 print(tweet.text.translate(non_bmp_map))
