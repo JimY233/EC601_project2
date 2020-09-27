@@ -3,8 +3,7 @@ Please read the report named EC601 project2 phase1.pdf. The code and results are
 Considering the requirement that the keys should not be public, I only showed the code before I entered API key, API secret key, access token, access secret token. That is to say,
 Please enter your API key, API secret key, access token, access secret token derived from the Twitter API Developer Portal to the code where:
 
-consumer_key = "Enter the Consumer Key"
-
+consumer_key = "Enter the Consumer Key"\n
 consumer_secret = "Enter the consumer secret"
 
 access_key = "Enter the access key"
