@@ -15,4 +15,4 @@ import sys
 non_bmp_map = dict.fromkeys(range(0x10000,sys.maxunicode+1),0xfffd)  
 print(tweet.text.translate(non_bmp_map))
 
-Remember to change the key word as you want. 
+Remember to change the key word like '@Ibra_official' as you want. 
