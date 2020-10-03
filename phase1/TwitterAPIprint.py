@@ -13,7 +13,7 @@ auth.set_access_token(access_key, access_secret)
 
 api = tweepy.API(auth)
  
-public_tweets = api.user_timeline('LeoDiCaprio') //who’s tweets you want to record
+public_tweets = api.user_timeline('LeoDiCaprio') #who’s tweets you want to record
 
 i = 1 
 for tweet in public_tweets:
