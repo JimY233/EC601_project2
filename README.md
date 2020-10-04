@@ -20,10 +20,10 @@ As a reporter, I want to analyze people’s sentiment to certain object or certa
 As a reporter, I want to compare people’s sentiment to two famous persons.  
 
 Implementation:
-Under phase2:
+Under phase2:  
 Please remember to enter the keys for Twitter API in TwitterAPI.py  
-Please remember to use key file for Google NLP API by adding .json file to the path and hold the same cmd shell when running python files  
-main.py is implemented to analyze the sentiment to one keyword
-compare.py is implemented to compare the sentiment to two keywords
+Please remember to use key file for Google NLP API by adding .json file to the path and hold the same cmd shell when running python files    
+main.py is implemented to analyze the sentiment to one keyword  
+compare.py is implemented to compare the sentiment to two keywords  
 
 
